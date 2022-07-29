@@ -1,4 +1,7 @@
 def read_parquet(filename):
+    """
+    Reads in a pareuet file (the file name must be a string) and outputs its dataframe.
+    """
     
     # This is copied from tutorial 1
     from pyspark.sql import SparkSession

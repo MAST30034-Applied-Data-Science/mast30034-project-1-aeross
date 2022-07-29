@@ -1,6 +1,6 @@
 def read_parquet(filename):
     """
-    Reads in a pareuet file (the file name must be a string) and outputs its dataframe.
+    Reads in a parquet file and outputs its dataframe.
     """
     
     # This is copied from tutorial 1

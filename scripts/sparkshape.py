@@ -1,9 +1,9 @@
 def spark_shape(sdf):
     """
     This function sort of imitates pandas' df.shape().
-    It takes a spark dataframe as input and prints the number of rows
-    and columns of the dataframe in this format: (rows, columns).
+    It takes a spark dataframe as input and returns the number of rows
+    and columns of the dataframe in this tuple format: (rows, columns).
     """
+    output = (sdf.count(), len(sdf.columns))
 
-    print("(" + str(sdf.count()) + ", " + str(len(sdf.columns)) + ")")
-    return
+    return output

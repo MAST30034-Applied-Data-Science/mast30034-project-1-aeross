@@ -1,6 +1,6 @@
 def read_parquet(filename):
     """
-    Reads in a parquet file and outputs its dataframe.
+    Creates a spark session and returns spark.
     """
     
     # This is copied from tutorial 1
@@ -13,4 +13,4 @@ def read_parquet(filename):
         .config("spark.sql.parquet.cacheMetadata", "true")
         .getOrCreate()
     )
-    return spark.read.parquet(filename)
+    return spark

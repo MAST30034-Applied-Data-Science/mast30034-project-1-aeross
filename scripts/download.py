@@ -8,9 +8,6 @@ def download(YEAR, MONTHS, URL_TEMPLATE, TAXI_DATA):
     URL_TEMPLATE is the URL that the data is going to be downloaded from
     TAXI_DATA is the file name of the taxi data, needs to be a string
 
-    The zone/zone lookup files can also be downloaded with this function provided that the values
-    for YEAR and MONTHS are NULL.
-
     Note that this function is specifically for downloading the taxi data for this project
     only, and will might not behave the way as expected if it is used to download other datasets.
     '''

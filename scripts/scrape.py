@@ -23,6 +23,7 @@ if os.path.exists(filename):
 
 
 for month in range(1, 13):
+    # note: the urls were accessed on 14/08/2022
     url = f"https://dateandtime.info/citysunrisesunset.php?id=5128581&month={month}&year=2019"
     page = requests.get(url)
     # page should be "<Response [200]>"

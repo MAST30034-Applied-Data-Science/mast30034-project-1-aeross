@@ -54,9 +54,9 @@ for month in range(1, 13):
         for i in row_data:
             table_data = i.text
             # on the 1st column (date), there is an unnecessary "\n" at the beginning of 
-            # the string, and the day is probably not needed as well
+            # the string
             if count == 0:
-                table_data = table_data[6:]
+                table_data = table_data[1:]
                 
             # on the 2nd to last column, there seems to be two time formats merged into one
             # the AM PM format and the 24-hour format, all separated by "\n"

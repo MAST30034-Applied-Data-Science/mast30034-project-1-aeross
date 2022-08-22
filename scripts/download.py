@@ -45,13 +45,6 @@ def download(YEAR, MONTHS, URL_TEMPLATE, TAXI_DATA):
 
     return
 
-# download the green taxi data
-URL_TEMPLATE = "https://d37ci6vzurychx.cloudfront.net/trip-data/green_tripdata_"
-YEAR = '2019'
-MONTHS = range(1, 13)
-TAXI_DATA = "green"
-download(YEAR, MONTHS, URL_TEMPLATE, TAXI_DATA)
-
 # download the yellow taxi data
 URL_TEMPLATE = "https://d37ci6vzurychx.cloudfront.net/trip-data/yellow_tripdata_"
 YEAR = '2019'

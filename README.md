@@ -19,7 +19,7 @@ You **must** write up `README.md` for this repository to be eligable for readabi
 Remember, we will be reading through and running your code, so it is in _your best interest_ to ensure it is readable and efficient.
 
 
-**Research Goal:** My research goal is analysis of how time and location affect the number of crashes in New York City.
+**Research Goal:** How time and location affect the number of crashes in New York City.
 
 **Timeline:** The timeline for the research area is 2017 - 2019.
 
@@ -32,4 +32,5 @@ To run the pipeline, please visit the `scripts` directory and do the following:
 Then, visit the `notebooks` directory and run the following files in order:
 1. `preprocess.ipynb`: This notebook details all preprocessing steps on the TLC yellow taxi data and outputs it to the `data/curated` directory.
 2. `preprocess2.ipynb`: This notebook details all preprocessing steps on the remaining data and outputs it to the `data/curated` directory.
-3. `analysis.ipynb`: This notebook is used to conduct analysis on the curated data, run and analyse the models, and discuss the important features according to those models. If you want a more in-depth discussion, visit the relevant section in the report.
+3. `analysis.ipynb`: This notebook is used to conduct analysis on the curated data, run and analyse the models, and discuss the important features according to those models. 
+For a more in-depth discussion or analysis, visit the relevant section in the report.

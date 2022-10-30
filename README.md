@@ -1,7 +1,3 @@
-# MAST30034 Project 1 README.md
-- Name: Andrew Dharmaputra
-- Student ID: 1213935
-
 ## Student Instructions
 You **must** write up `README.md` for this repository to be eligable for readability marks.
 
